@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
- *main - Entry of the program
- *Return always 0 success
+ * main - Entry of the program
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
