@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - takes a random number and checks how is it alongside postive or negative
- * Return : It is the end of the program
+ * Return: It is the end of the program
 */
 int main(void)
 {
