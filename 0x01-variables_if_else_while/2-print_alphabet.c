@@ -1,11 +1,15 @@
 #include <stdio.h>
 /**
  * main - Entry level
- * Return: Always success (0)
-*/
+ *
+ * Return: Success(0)
+ */
 int main(void)
 {
-	putchar("abcdefghijklmnopqrstuvwxyz");
-	putchar("\n");
+	char i;
+
+	for(i = 'a' ; i <= 'z' ; i++)
+		putchar(i);
+	putchar('\n');
 	return (0);
 }
