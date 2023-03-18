@@ -1,10 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
+/* more headers goes there */
 #include <stdio.h>
+/* betty style doc for function main goes there */
 /**
- * main - takes a random number and checks how is it alongside postive or negative
- * Return: It is the end of the program
-*/
+ * main - Entry point
+ *
+ * Return: always (0) success
+ */
 int main(void)
 {
 	int n;
