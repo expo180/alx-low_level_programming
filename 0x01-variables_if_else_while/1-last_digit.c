@@ -7,8 +7,7 @@
  * main - Entry point of the function
  *
  * Return: Always success (0)
-*/
-
+ */
 int main(void)
 {
 	int n;
