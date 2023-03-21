@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  * main - Entry of the program
  *
@@ -7,17 +7,11 @@
  */
 int main(void)
 {
-	char c = '_', d = 'p', e = 'u', f = 't', g = 'c', h = 'h', i = 'a', j = 'r';
+	char c[8] = "_putchar";
+	int i;
 
-	putchar(c);
-	putchar(d);
-	putchar(e);
-	putchar(f);
-	putchar(g);
-	putchar(h);
-	putchar(i);
-	putchar(j);
-	putchar('\n');
+	for (i = 0; i <= 8 ; i++)
+		_putchar(c[i]);
+	_putchar('\n');
 	return (0);
-
 }
