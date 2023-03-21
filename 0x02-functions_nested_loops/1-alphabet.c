@@ -2,8 +2,6 @@
 #include <stdio.h>
 /**
  * print_alphabet - Entry of the program
- *
- * Return: Success(0)
  */
 void print_alphabet(void)
 {
