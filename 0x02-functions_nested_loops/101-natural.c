@@ -1,20 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Prints natural numbers 
- * multiplies of 3 or 5
+ * main - entry point
  *
- * Return: Always 0.
+ * Return: always 0
  */
+
 int main(void)
 {
-	int a, b;
+	int i, sum = 0;
 
-	for (a = 1; a < 1024; a++)
+	for (i = 0; i < 1024; i++)
 	{
-		if ((a % 3) == 0 || (a % 5) == 0)
-			b += a;
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
 	}
-	printf("%d\n", b);
+	printf("%d\n", sum);
 	return (0);
 }
+
