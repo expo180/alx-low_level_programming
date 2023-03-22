@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int i;
+	int j;
 
 	printf("Infinite loop incoming :(\n");
 
