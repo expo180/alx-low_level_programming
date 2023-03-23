@@ -15,3 +15,8 @@ int _isupper(int c)
 		return (0);
 	_putchar('\n');
 }
+int main(void)
+{
+	int c = 'a';
+	_isupper(c);
+}
