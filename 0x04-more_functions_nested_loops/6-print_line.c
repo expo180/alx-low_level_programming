@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - prints a beautiful line
- * @n: the number times
+ * print_line - draws a line
+ * @n: the number of times
  */
 
 void print_line(int n)
@@ -12,7 +12,9 @@ void print_line(int n)
 	if (n <= 0)
 		_putchar('\n');
 	else
+	{
 		for (i = 1 ; i <= n ; i++)
 			_putchar('_');
-	putchar('\n');
+		_putchar('\n');
+	}
 }
