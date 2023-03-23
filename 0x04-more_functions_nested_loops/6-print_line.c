@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * print_line - prints a beautiful line
  * @n: the number times
  */
+
 void print_line(int n)
 {
 	int i;
