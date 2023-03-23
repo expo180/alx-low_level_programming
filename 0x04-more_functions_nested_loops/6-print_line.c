@@ -2,7 +2,6 @@
 /**
  * print_line - prints a beautiful line
  * @n: the number times
- * Return: Success(0)
  */
 void print_line(int n)
 {
@@ -11,7 +10,7 @@ void print_line(int n)
 	if (n <= 0)
 		_putchar('\n');
 	else
-		for (i = 1; i <= n; i++)
+		for (i = 1 ; i <= n ; i++)
 			_putchar('_');
 	putchar('\n');
 }
