@@ -1,31 +1,23 @@
+
 #include "main.h"
-#include "_putchar.c"
 
 /**
- * more_numbers
- *
- * Return: Success(0)
+ * more_numbers - prints 10 times the numbers, from 0 to 14
  */
 
 void more_numbers(void)
 {
-	char i;
 	int j;
+	char i;
 
-	for (j = 0; j <= 10; j++)
-		for (i = '0'; i <= '9'; i++)
-			_putchar(i);
+	for (j = 1 ; j <= 10 ; j++)
+	{
+		for (i = 0 ; i <= 14 ; i++)
+		{
+			if (i > 9)
+				_putchar('j');
+			_putchar(i % 10 + '0');
+		}
 		_putchar('\n');
-	_putchar('\n');
-}
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    more_numbers();
-    return (0);
+	}
 }
